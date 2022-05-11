@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{3D316DE2-4381-4EF3-9183-1742FF1988C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{D5DA7082-8F42-4A50-9974-01346C8786DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6} = {3D316DE2-4381-4EF3-9183-1742FF1988C6}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shaders", "_Shaders", "{847EDF44-1B61-4F29-9224-A234BEF6188D}"
+	ProjectSection(SolutionItems) = preProject
+		_Shaders\00_Global.fx = _Shaders\00_Global.fx
+		_Shaders\01_Line.fx = _Shaders\01_Line.fx
+		_Shaders\02_LineColor.fx = _Shaders\02_LineColor.fx
+		_Shaders\03_MultiLine.fx = _Shaders\03_MultiLine.fx
+		_Shaders\04_Rect.fx = _Shaders\04_Rect.fx
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpriteEditor", "SpriteEditor\SpriteEditor.vcxproj", "{2A07C464-276C-4321-8F76-CBE9A3B47292}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6} = {3D316DE2-4381-4EF3-9183-1742FF1988C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Debug|x64.ActiveCfg = Debug|x64
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Debug|x64.Build.0 = Debug|x64
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Debug|x86.Build.0 = Debug|Win32
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Release|x64.ActiveCfg = Release|x64
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Release|x64.Build.0 = Release|x64
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Release|x86.ActiveCfg = Release|Win32
+		{3D316DE2-4381-4EF3-9183-1742FF1988C6}.Release|x86.Build.0 = Release|Win32
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Debug|x64.ActiveCfg = Debug|x64
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Debug|x64.Build.0 = Debug|x64
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Debug|x86.Build.0 = Debug|Win32
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Release|x64.ActiveCfg = Release|x64
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Release|x64.Build.0 = Release|x64
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Release|x86.ActiveCfg = Release|Win32
+		{D5DA7082-8F42-4A50-9974-01346C8786DB}.Release|x86.Build.0 = Release|Win32
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Debug|x64.ActiveCfg = Debug|x64
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Debug|x64.Build.0 = Debug|x64
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Debug|x86.Build.0 = Debug|Win32
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Release|x64.ActiveCfg = Release|x64
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Release|x64.Build.0 = Release|x64
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Release|x86.ActiveCfg = Release|Win32
+		{2A07C464-276C-4321-8F76-CBE9A3B47292}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B79038-4890-44EB-8DF9-A3859DACDA29}
+	EndGlobalSection
+EndGlobal

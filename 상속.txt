@@ -1,0 +1,5 @@
+데미지를 받을수있다? IDamage
+스테이트 머신이 필요하다? ICharacter
+
+콜라이더 충돌후 getParent로 판단
+IDamage 상속받았으면 send Damage

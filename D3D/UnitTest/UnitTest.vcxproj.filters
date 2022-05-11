@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Scene\SelectScene.cpp">
+      <Filter>Scene_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TutorialScene.cpp">
+      <Filter>Scene_Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1.cpp">
+      <Filter>Scene_Mission1</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEdit\LineEdit.cpp">
+      <Filter>LineEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters\Monster_Crab.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Projectile.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\ColliderManager.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MovementComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters\Player_Eri.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters\Player_Bullet.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Rocket.cpp">
+      <Filter>Scene_Mission1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Ship.cpp">
+      <Filter>Scene_Mission1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Wave.cpp">
+      <Filter>Scene_Mission1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Boat.cpp">
+      <Filter>Scene_Mission1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Boss.cpp">
+      <Filter>Scene_Mission1_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Mission1_Boss_Ground.cpp">
+      <Filter>Scene_Mission1_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters\Monster_Hermit.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Items.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Items_HeavyMG.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Scene\SelectScene.h">
+      <Filter>Scene_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TutorialScene.h">
+      <Filter>Scene_Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1.h">
+      <Filter>Scene_Mission1</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IDamage.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\ICharacter.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="LineEdit\LineEdit.h">
+      <Filter>LineEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters\Monster_Crab.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Projectile.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\ColliderManager.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MovementComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters\Player_Eri.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters\Player_Bullet.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Rocket.h">
+      <Filter>Scene_Mission1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Ship.h">
+      <Filter>Scene_Mission1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Wave.h">
+      <Filter>Scene_Mission1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Boat.h">
+      <Filter>Scene_Mission1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Boss.h">
+      <Filter>Scene_Mission1_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Mission1_Boss_Ground.h">
+      <Filter>Scene_Mission1_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters\Monster_Hermit.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Items.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Items_HeavyMG.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene_Tutorial">
+      <UniqueIdentifier>{2280977e-331c-4758-ab54-e5b99abb0973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene_Select">
+      <UniqueIdentifier>{db8c20c8-060c-455b-a868-f4c5cc9e017b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters">
+      <UniqueIdentifier>{511bded8-9375-4a5c-b58d-5638c859ef79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{4af5f021-0f26-412c-ab2f-d125b0c2a9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene_Mission1">
+      <UniqueIdentifier>{abd5e09b-e381-4906-bb40-549cb88285a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LineEdit">
+      <UniqueIdentifier>{0b2429e8-c8d5-4f92-b41b-a4054a45ea70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{baf1c040-aa49-4857-9e00-18bf7e99689c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{fa87db63-d80c-49c3-8fa4-28836d5fd548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene_Mission1_Boss">
+      <UniqueIdentifier>{55794e1a-f213-4133-babf-1e85a56bd82a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

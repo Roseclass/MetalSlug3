@@ -1,0 +1,10 @@
+블로킹 볼륨
+트리거 볼륨
+Bullet
+IDamage
+Ground
+캐릭터 콜라이더
+
+Bullet : IDamage,Ground와 검사
+캐릭터 포지션 : Ground와 검사
+캐릭터 콜라이더 : 캐릭터 콜라이더
